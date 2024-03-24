@@ -18,24 +18,24 @@ import FoodCard from '../widgets/FoodCard';
 
 const sales = [
   {
-    title: 'Viernes\n3 x 2',
-    subtitle:"Campechanas",
+    title: '3 x 2',
+    subtitle:"Campechanas\n(Lunes)",
     description:"De $297 a",
     price: "$198",
     quantity:"",
     image: campechana,
   },
   {
-    title: "Martes\n2 x 1",
-    subtitle:"Piratas",
+    title: "2 x 1",
+    subtitle:"Piratas\n(Martes)",
     description:"De $200 a",
     price: "$170",
     quantity:"",
     image: pirata,
   },
   {
-    title: "Jueves\n2 x 1",
-    subtitle:"Norteñas",
+    title: "2 x 1",
+    subtitle:"Norteñas\n(Miercoles)",
     description:"De $200 a",
     price: "$180",
     quantity:"",
