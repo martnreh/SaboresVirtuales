@@ -142,7 +142,7 @@ function Home() {
             </div>
 
             <div className="flex flex-wrap justify-content-center gap-8 mb-8">
-              <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
+              <a href="https://www.facebook.com" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
                 <Button
                   className="bg-white"
                   severity="primary"
@@ -153,7 +153,7 @@ function Home() {
                   <i className="pi pi-facebook p-2" style={{ fontSize: "2rem" }}></i>
                 </Button>
               </a>
-              <a href="https://www.instagram.com/taqueriaorinoco/?hl=es" target="_blank" rel="noreferrer">
+              <a href="https://www.instagram.com/taqueriaorinoco/?hl=es" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
                 <Button
                   className="bg-white"
                   severity="danger"
@@ -164,7 +164,7 @@ function Home() {
                   <i className="pi pi-instagram p-2" style={{ fontSize: "2rem" }}></i>
                 </Button>
               </a>
-              <a href="https://api.whatsapp.com/send?phone=YOUR_PHONE_NUMBER" target="_blank" rel="noreferrer">
+              <a href="https://api.whatsapp.com/send?phone=YOUR_PHONE_NUMBER" target="_blank" rel="noreferrer" style={{ textDecoration: 'none' }}>
                 <Button
                   className="bg-white"
                   severity="success"

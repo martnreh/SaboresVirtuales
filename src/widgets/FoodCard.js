@@ -70,8 +70,8 @@ const FoodCard = ({ subtitle, description, price, quantity, title, image }) => {
           src={image}
           alt={subtitle}
           style={{
-            width: "110%",
-            height: "110%",
+            width: "100%",
+            height: "100%",
             objectFit: "cover",
             objectPosition: "center",
             transform: `translate(${pos.x}px, ${pos.y}px) scale(${isClicked ? 2 : 1})`, // Scale the image when clicked

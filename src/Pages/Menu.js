@@ -21,6 +21,12 @@ import papas from "../assets/papas.jpeg";
 import frijoles from "../assets/frijoles.png";
 import refresco from "../assets/refresco.jpeg";
 import agua from "../assets/agua.png";
+import tecate from "../assets/tecate.png";
+import indio from "../assets/indio.png";
+import dosequis from "../assets/dosequis.png";
+
+
+
 
 
 const categories = [
@@ -69,9 +75,16 @@ const categories = [
   {
     id: 4, name: 'BEBIDAS', subcategories: [
       {
-        id: 1, name: "Refrescos", products: [
+        id: 1, name: "Sin Acohol", products: [
           { id: 1,  title: "Refre-\nscos", subtitle: "Lata 500 ml", description: "", price: "$25", quantity:"", image: refresco },
           { id: 2,  title: "Agua", subtitle: "Botella 650 ml", description: "", price: "$20", quantity:"", image: agua },
+        ]
+      },
+      {
+        id: 1, name: "Alcohol", products: [
+          { id: 1,  title: "Cerveza", subtitle: "Dos Equis", description: "", price: "$22", quantity:"", image: dosequis },
+          { id: 2,  title: "Cerveza", subtitle: "Indio", description: "", price: "$24", quantity:"", image: indio },
+          { id: 3,  title: "Cerveza", subtitle: "Tecate Original", description: "", price: "$24", quantity:"", image: tecate },
         ]
       },
       
@@ -139,7 +152,7 @@ function Menu() {
         <div className="mx-4 mb-2">
           <Divider className="h-2" />
         </div>
-        <div className="ml-4 mb-4 bg-secondary w-100">
+        <div className="ml-4 mb-4 bg-secondary w-100 h-100">
           <TabView activeIndex={activeIndex} onTabChange={(e) => setActiveIndex(e.index)}>
             {selectedCategory.subcategories.map((subcategory, index) => (
               <TabPanel key={index} header={subcategory.name} className='pr-5' style={{ backgroundColor: "var(--background)" }}>
