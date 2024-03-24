@@ -21,9 +21,15 @@ import papas from "../assets/papas.jpeg";
 import frijoles from "../assets/frijoles.png";
 import refresco from "../assets/refresco.jpeg";
 import agua from "../assets/agua.png";
+import limonada from "../assets/limonada.png";
+import jamaica from "../assets/jamaica.png";
+import pepino from "../assets/pepino.png";
+
+
 import tecate from "../assets/tecate.png";
 import indio from "../assets/indio.png";
 import dosequis from "../assets/dosequis.png";
+import corona from "../assets/corona.png";
 
 
 
@@ -78,6 +84,9 @@ const categories = [
         id: 1, name: "Sin Acohol", products: [
           { id: 1,  title: "Refre-\nscos", subtitle: "Lata 500 ml", description: "", price: "$25", quantity:"", image: refresco },
           { id: 2,  title: "Agua", subtitle: "Botella 650 ml", description: "", price: "$20", quantity:"", image: agua },
+          { id: 3,  title: "Limon-\nada", subtitle: "Vaso 650 ml", description: "Agua de Limón", price: "$20", quantity:"", image: limonada },
+          { id: 4,  title: "Jama-\nica", subtitle: "Vaso 650 ml", description: "Agua de Jamaica", price: "$20", quantity:"", image: jamaica },
+          { id: 4,  title: "Pepino", subtitle: "Vaso 650 ml", description: "Agua de Pepino", price: "$20", quantity:"", image: pepino },
         ]
       },
       {
@@ -85,6 +94,7 @@ const categories = [
           { id: 1,  title: "Cerveza", subtitle: "Dos Equis", description: "", price: "$22", quantity:"", image: dosequis },
           { id: 2,  title: "Cerveza", subtitle: "Indio", description: "", price: "$24", quantity:"", image: indio },
           { id: 3,  title: "Cerveza", subtitle: "Tecate Original", description: "", price: "$24", quantity:"", image: tecate },
+          { id: 3,  title: "Cerveza", subtitle: "Corona", description: "", price: "$24", quantity:"", image: corona },
         ]
       },
       

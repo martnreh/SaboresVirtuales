@@ -18,7 +18,7 @@ import FoodCard from '../widgets/FoodCard';
 
 const sales = [
   {
-    title: "3 x 2",
+    title: 'Viernes\n3 x 2',
     subtitle:"Campechanas",
     description:"De $297 a",
     price: "$198",
@@ -26,7 +26,7 @@ const sales = [
     image: campechana,
   },
   {
-    title: "2 x 1",
+    title: "Martes\n2 x 1",
     subtitle:"Piratas",
     description:"De $200 a",
     price: "$170",
@@ -34,7 +34,7 @@ const sales = [
     image: pirata,
   },
   {
-    title: "2 x 1",
+    title: "Jueves\n2 x 1",
     subtitle:"Norteñas",
     description:"De $200 a",
     price: "$180",
