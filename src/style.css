@@ -1,0 +1,178 @@
+*,html{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --background: #FBFBFB;
+  --white: #FBFBFB;
+  --black: #1E1E1E;
+  --red: #FF5858;
+  --gray: #8B8888;
+  --opaque: rgba(43, 41, 41, 0.9); 
+
+}
+
+
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  background: var(--background);
+  border-color: rgba(0, 0, 0, 0); /* Transparent border */;
+  color: #FF5858;
+}
+
+.p-tabview .p-tabview-nav {
+  background: var(--background);
+  border: 1px #1E1E1E;
+  border-width: 0 0 2px 0;
+}
+.p-tabview .p-tabview-nav .p-tabview-ink-bar {
+  z-index: 1;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background-color: #FF5858;
+  transition: 500ms cubic-bezier(0.35, 0, 0.25, 1);
+}
+
+.slick-dots li button::before {
+  font-size: 10px !important;
+  color: #fff !important;
+  opacity: 0.7 !important;
+}
+
+.slick-dots li.slick-active button::before {
+  font-size: 10px !important;
+  color: #fff !important;
+  color: var(--red) !important;
+  opacity: 1 !important;
+}
+
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-tabview-selected a {
+  background-color: red !important;
+}
+
+
+.font-thin {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-extralight {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.font-light {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-regular {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-medium {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-semibold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.font-bold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-extrabold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-black {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-thin-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.font-extralight-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.font-light-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.font-regular-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.font-medium-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.font-semibold-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.font-bold-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.font-extrabold-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.font-black-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
