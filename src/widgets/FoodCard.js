@@ -49,13 +49,13 @@ const FoodCard = ({ subtitle, description, price, quantity, title, image }) => {
         <div style={{ height: "80%", flex: 1, backgroundColor: "var(--red)", justifyContent: "center", alignItems: "center", display: "flex", paddingLeft: "1rem", paddingRight: "1rem" }}>
           <Grid container justifyContent="center" alignItems="center" spacing={0}>
             <Grid item xs={12}>
-              <h1 className="font-extrabold" style={{ color: 'var(--white)' }}>{title}</h1>
+              <h2 className="font-extrabold" style={{ color: 'var(--white)' }}>{title}</h2>
             </Grid>
             <Grid item xs={12}>
               <h3 className="font-bold" style={{ color: 'var(--black)' }}>{subtitle}</h3>
             </Grid>
             <Grid item xs={12}>
-              <h6 className="font-normal text-justify" style={{ color: 'var(--black)' }}>{description}</h6>
+              <h6 className="font-normal text-left" style={{ color: 'var(--black)' }}>{description}</h6>
             </Grid>
             <Grid item xs={12} className='flex'>
               <h2 className="font-extrabold" style={{ color: 'var(--black)', fontSize: '2rem' }}>{price}</h2>

@@ -60,7 +60,7 @@ const categories = [
     id: 2, name: 'ESPECIALES', subcategories: [
       {
         id: 1, name: "Especiales", products: [
-          { id: 1,  title: "Campe-\nchana", subtitle: "Harina", description: "", price: "$99", quantity:"c/u", image: campechana },
+          { id: 1,  title: "Gringa", subtitle: "Harina", description: "", price: "$99", quantity:"c/u", image: campechana },
           { id: 2,  title: "Norteña", subtitle: "Harina", description: "", price: "$99", quantity:"c/u", image: norteña },
           { id: 3,  title: "Pirata", subtitle: "Harina", description: "", price: "$99", quantity:"c/u", image: pirata },
         ]
@@ -82,11 +82,11 @@ const categories = [
     id: 4, name: 'BEBIDAS', subcategories: [
       {
         id: 1, name: "Sin Acohol", products: [
-          { id: 1,  title: "Refre-\nscos", subtitle: "Lata 500 ml", description: "", price: "$25", quantity:"", image: refresco },
+          { id: 1,  title: "Refrescos", subtitle: "Lata 500 ml", description: "Solo refresco de lata", price: "$25", quantity:"", image: refresco },
           { id: 2,  title: "Agua", subtitle: "Botella 650 ml", description: "", price: "$20", quantity:"", image: agua },
-          { id: 3,  title: "Limon-\nada", subtitle: "Vaso 650 ml", description: "Agua de Limón", price: "$20", quantity:"", image: limonada },
-          { id: 4,  title: "Jama-\nica", subtitle: "Vaso 650 ml", description: "Agua de Jamaica", price: "$20", quantity:"", image: jamaica },
-          { id: 4,  title: "Pepino", subtitle: "Vaso 650 ml", description: "Agua de Pepino", price: "$20", quantity:"", image: pepino },
+          { id: 3,  title: "Limonada", subtitle: "Vaso 650 ml", description: "Agua de Limón", price: "$25", quantity:"", image: limonada },
+          { id: 4,  title: "Jamaica", subtitle: "Vaso 650 ml", description: "Agua de Jamaica", price: "$25", quantity:"", image: jamaica },
+          { id: 4,  title: "Pepino", subtitle: "Vaso 650 ml", description: "Agua de Pepino", price: "$25", quantity:"", image: pepino },
         ]
       },
       {
